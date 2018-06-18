@@ -61,19 +61,19 @@ public class Vista extends JPanel{
         BUSCAR.setBounds(new Rectangle(190,40,anchoB,altoB));
         
         INSERTAR=new JButton("Insertar");
-        INSERTAR.setBounds(new Rectangle(190,60,anchoB,altoB));
+        INSERTAR.setBounds(new Rectangle(190,200,anchoB,altoB));
         
         ELIMINAR=new JButton("Eliminar");
-        ELIMINAR.setBounds(new Rectangle(190,80,anchoB,altoB));
+        ELIMINAR.setBounds(new Rectangle(250,200,anchoB,altoB));
         
         ACTUALIZAR=new JButton("Actualizar");
-        ACTUALIZAR.setBounds(new Rectangle(190,100,anchoB,altoB));
+        ACTUALIZAR.setBounds(new Rectangle(300,200,anchoB,altoB));
         
         LIMPIAR=new JButton("Limpiar");
-        LIMPIAR.setBounds(new Rectangle(190,120,anchoB,altoB));
+        LIMPIAR.setBounds(new Rectangle(380,200,anchoB,altoB));
         
         TIPO=new JComboBox();
-        TIPO.setBounds(new Rectangle(40,40, anchoTF, altoTF));
+        TIPO.setBounds(new Rectangle(410,200, anchoTF, altoTF));
         
         Si=new JRadioButton("si", true);
         Si.setBounds(100, 200, 40, 30);
