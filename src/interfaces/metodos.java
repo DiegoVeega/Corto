@@ -12,6 +12,7 @@ import java.util.ArrayList;
  * @author LN710Q
  */
 public interface metodos <Generic>{
+    public boolean create(Generic c);
     public boolean delete (Object key);
     public boolean update(Generic c);
     

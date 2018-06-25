@@ -6,6 +6,7 @@
 package dao;
 
 import Conexion.conexion;
+import interfaces.metodos;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -19,7 +20,7 @@ import modelo.producto;
  *
  * @author LN710Q
  */
-public class productoDao {
+public class productoDao implements metodos<producto>{
     private static final String SQL_INSERT = "INSERT INTO filtros_aceite(codFiltro,marca,stock,existencia) VALUES(?,?,?,?,?,?)";
     ;
     private static final String SQL_UPDATE = "UPDATE filtros_aceite SET marca =?, stock =?, existencia =? WHERE codFiltro=?";

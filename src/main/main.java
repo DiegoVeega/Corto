@@ -13,6 +13,7 @@ import visualizar.Vista;
  * @author LN710Q
  */
 public class main {
+    /*
     public static void main(String[] args){
         JFrame ventana=new JFrame("Productos");
         ventana.setContentPane(new Vista());
@@ -21,4 +22,5 @@ public class main {
         ventana.pack();
         ventana.setVisible(true);
 }
+*/
 }

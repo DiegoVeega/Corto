@@ -30,6 +30,10 @@ public class producto {
         this.disponibilidad=disponibilidad;
     }
 
+    public producto(String string, int aInt, String string0, float aFloat, boolean aBoolean) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -70,7 +74,7 @@ public class producto {
         this.precio = precio;
     }
 
-    public boolean isDisponibilidad() {
+    public boolean getDisponibilidad() {
         return disponibilidad;
     }
 
