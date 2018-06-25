@@ -75,9 +75,7 @@ public class Vista extends JFrame{
         container.add(cantidadl);
         container.add(disponibilidadl);
         container.add(tabla);
-        
-        setLayout(null);
-        setPreferredSize(new Dimension(ANCHO,ALTO));
+        //setPreferredSize(new Dimension(ANCHO,ALTO));
         setSize(600,600);
         eventos();
     }
